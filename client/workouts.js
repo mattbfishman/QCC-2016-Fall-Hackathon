@@ -9,4 +9,35 @@ Template.workout.onRendered( function () {
 	$("div#7").hide();
 	let temp = "div#" + rand;
 	$(temp).show();
+
+	var counter = 60;
+
+   	var myInterval = Meteor.setInterval(function(){
+      if(counter !=0)
+      {
+      counter --
+      Session.set("counter", counter);
+    }}, 1000);
 });
+
+Template.workout.helpers({
+  counter: function (){
+  	let counter = Session.get("counter");
+  	return counter;
+  }
+});
+
+Template.workout.events({
+	"click #returnButton": function()
+	{
+		let counter = Session.get("counter");
+		if(counter == 0)
+		{
+			Router.go('/happening');
+		}
+		else
+		{
+			console.log("NULL");
+		}
+	}
+})

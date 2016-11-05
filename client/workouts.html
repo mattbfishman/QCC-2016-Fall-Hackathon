@@ -31,9 +31,13 @@
         
         <div id="7" class="workout">
             <b><p>Growing Strong</p></b>
-
-        <div class="returnButton">
-            <a href="{{pathFor route='happening'}}"><button type="button" class="btn btn-danger">Return</button></a><br>
+            <p>20 Pushups</p>
         </div>
+        <div id="timer" class="timer">
+            {{counter}}
 
+        </div>
+        <div class="returnButton" id="returnButton">
+            <button type="button" class="btn btn-danger">Return</button><br>
+        </div>
 </template>
