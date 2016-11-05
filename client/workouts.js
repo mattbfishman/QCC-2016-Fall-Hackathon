@@ -10,9 +10,9 @@ Template.workout.onRendered( function () {
 	let temp = "div#" + rand;
 	$(temp).show();
 
-	var counter = 60;
+	let counter = 60;
 
-   	var myInterval = Meteor.setInterval(function(){
+   	let myInterval = Meteor.setInterval(function(){
       if(counter !=0)
       {
       counter --
