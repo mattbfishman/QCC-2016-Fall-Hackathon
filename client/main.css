@@ -17,12 +17,13 @@ audio
 {
 	display: none;
 }
-.mainBody
+.main
 {
 	background-image: url("/img/gotBack.png");
-	height: 650px;
-	width: 1125px;
+	height: 1080px;
+	width: 1600px;
 	color: white;
+	text-align: center;
 }
 .workout
 {
