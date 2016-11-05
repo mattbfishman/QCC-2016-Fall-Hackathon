@@ -1,1 +1,8 @@
-/* CSS declarations go here */
+.mainBody, 
+h1,
+.see,
+.says,
+.hear
+{
+	text-align: center;
+}
