@@ -24,3 +24,17 @@ audio
 	width: 1125px;
 	color: white;
 }
+.workout
+{
+	text-align: center;
+	font-size: 36px;
+}
+.returnButton
+{
+	text-align: center;
+}
+.timer
+{
+	text-align: center;
+	font-size: 36px;
+}
