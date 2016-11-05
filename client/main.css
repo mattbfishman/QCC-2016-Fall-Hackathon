@@ -17,3 +17,10 @@ audio
 {
 	display: none;
 }
+.mainBody
+{
+	background-image: url("/img/gotBack.png");
+	height: 650px;
+	width: 1125px;
+	color: white;
+}
