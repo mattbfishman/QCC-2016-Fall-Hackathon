@@ -1,6 +1,6 @@
 @font-face {
 	font-family: GoT;
-	src: url("Game of Thrones.ttf");
+	src: url("/fonts/fonty.ttf");
 }
 .gains{
 	border-image: url(texture.jpg) 50 round;
@@ -16,5 +16,12 @@ div.mainBody{
 }
 
 button{
-	font-family: "GoT";
+	font-family: GoT;
+}
+
+p{
+	font-family: GoT;
+}
+h1{
+	font-family: GoT;
 }
