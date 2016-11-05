@@ -6,6 +6,7 @@
 // 	return myArray[Math.floor(Math.random() * myArray.length)];
 // }
 
+
 // function assignDiv(){
 // 	for (int i = 0; i <workoutList.length(); i++){
 // 		let name = document.getElementById("workout").className();

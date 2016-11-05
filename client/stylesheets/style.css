@@ -1,4 +1,20 @@
+@font-face {
+	font-family: GoT;
+	src: url("Game of Thrones.ttf");
+}
 .gains{
 	border-image: url(texture.jpg) 50 round;
 	padding: 5px;
+}
+th{
+	font-family: GoT;
+	font-style: italic;
+}
+
+div.mainBody{
+	font-family: GoT;
+}
+
+button{
+	font-family: "GoT";
 }
