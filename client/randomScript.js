@@ -1,7 +1,5 @@
-function randomWorkout(workoutList) {
-	if (workoutList == null){
-		return "null";
-	}
+var workoutList = ["burpee","crunches","plank", "throne", "pull","push"];
+function randomWorkout() {
 	var len = workoutList.length();
 	var rando = Math.random();
 	var lowerBound = 0;
